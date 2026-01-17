@@ -2,7 +2,6 @@ const contextMenu = document.querySelector('.context-menu');
 const menuBtn = document.querySelector('.nav-btn');
 const closeContextBtn = document.querySelector('.close-btn');
 const header = document.querySelector('.header');
-const headerWrapper = document.querySelector('.header-bg-wrapper');
 
 menuBtn.addEventListener('click', onMenuButtonClick);
 
@@ -15,7 +14,6 @@ function onMenuButtonClick() {
   contextMenu.classList.add('is-open');
   menuBtn.classList.add('closed');
   closeContextBtn.classList.add('is-open');
-  headerWrapper.classList.add('header-bg-wrapper-context');
 
   contextMenu.addEventListener('click', onContextMenuLinkClick);
   closeContextBtn.addEventListener('click', onCloseContextButtonClick);
@@ -27,7 +25,6 @@ function onCloseContextButtonClick() {
   contextMenu.classList.remove('is-open');
   closeContextBtn.classList.remove('is-open');
   menuBtn.classList.remove('closed');
-  headerWrapper.classList.remove('header-bg-wrapper-context');
 
   contextMenu.removeEventListener('click', onContextMenuLinkClick);
   closeContextBtn.removeEventListener('click', onCloseContextButtonClick);

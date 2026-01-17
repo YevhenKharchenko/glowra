@@ -1,33 +1,22 @@
 .header {
-  background: #0d141a;
+  background: #ffefe2;
   position: fixed;
+  padding: 6px 0;
   width: 100%;
   top: 0;
   z-index: 10;
 
   @include media(desktop) {
+    padding: 16px 0;
   }
 }
 
 .header-bg-wrapper {
-  padding: 6px 0;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../img/hero/hero-bg-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: auto;
-
   @include media(desktop) {
-    padding: 16px 0;
-    max-width: 1440px;
-    background-image: url(../img/hero/hero-bg-desk.jpg);
   }
 }
 
 .header-bg-wrapper-context {
-  background-image: none;
 }
 
 .header-container {
@@ -57,7 +46,6 @@
 
 .header-logo-img {
   @include media(desktop) {
-    min-width: 196px;
   }
 }
 
@@ -67,19 +55,16 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 91px;
   }
 }
 
 .nav-list-link {
-  border: 1px solid #6fafb7;
-  border-radius: 100px;
-  padding: 10px 16px;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: #0b6286;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,8 +74,6 @@
   &:focus,
   &:active,
   &.active {
-    background: #6fafb7;
-    color: #0f1217;
   }
 }
 

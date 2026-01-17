@@ -1,5 +1,5 @@
 .footer {
-  background: #6fafb7;
+  background: #f4b6a8;
   padding-top: 34px;
   padding-bottom: 34px;
 
@@ -38,10 +38,11 @@
   display: flex;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.5;
-  color: #0c1117;
+  text-transform: capitalize;
+  color: #474747;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -57,8 +58,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  text-transform: capitalize;
-  color: #0c1117;
+  color: #474747;
 
   @include media(desktop) {
     text-align: center;
