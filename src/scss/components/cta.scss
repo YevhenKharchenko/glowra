@@ -1,0 +1,57 @@
+.cta-section {
+}
+
+.cta-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 150px;
+    max-width: 1440px;
+  }
+}
+
+.cta-container {
+  @include media(desktop) {
+  }
+}
+
+.cta-title {
+  @include media(desktop) {
+    margin-bottom: 38px;
+  }
+}
+
+.cta-btn {
+  background: #fff;
+  padding: 8px;
+  color: #6fafb7;
+  gap: 45px;
+  max-width: 335px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #6fafb7;
+    color: #fff;
+
+    .hero-btn-icon-wrapper {
+      background: #fff;
+    }
+  }
+
+  @include media(desktop) {
+    gap: 28px;
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.cta-btn-icon-wrapper {
+  background: #6fafb7;
+  @include media(desktop) {
+  }
+}
