@@ -1,0 +1,130 @@
+.interaction-section {
+  @include media(desktop) {
+  }
+}
+
+.interaction-cta-bg-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.interaction-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 150px;
+    max-width: 1440px;
+  }
+}
+
+.interaction-container {
+}
+
+.interaction-title {
+  @include media(desktop) {
+  }
+}
+
+.interaction-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #474747;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    text-align: left;
+    margin-bottom: 28px;
+  }
+}
+
+.interaction-swiper-container {
+  max-width: 305px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.interaction-swiper-container.show {
+  visibility: visible;
+}
+
+.interaction-swiper-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.interaction-slide {
+  width: 100%;
+  max-width: 305px;
+
+  @include media(desktop) {
+  }
+}
+
+.interaction-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.interaction-item-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  text-align: center;
+  color: #0b6286;
+  margin-bottom: 6px;
+
+  @include media(desktop) {
+  }
+}
+
+.interaction-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #474747;
+
+  @include media(desktop) {
+  }
+}
+
+.interaction-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #474747;
+  margin-top: 34px;
+
+  @include media(desktop) {
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+  }
+}
